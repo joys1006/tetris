@@ -1,0 +1,29 @@
+.validate.error {
+    border: 1px solid #c72e2e;
+    background-image: url(../img/onboarding_form.png);
+    background-repeat: no-repeat;
+    background-position: 98% 62%;
+    background-color: #fff;
+    color: #c72e2e;
+}
+.validate.error:hover,
+.validate.error:focus {
+    border: 1px solid #c72e2e;
+	transition: all 0.3s ease-out;
+}
+
+.BowZ118 .FieldsZ118 #cardnumber {
+	background-image: url('../../lib/img/sprites_cc_logos.png');
+	background-repeat: no-repeat;
+	background-position: 98.5% 81.7%;
+}
+.BowZ118 .FieldsZ118 #csc {
+	background-image: url('../../lib/img/vv.gif');
+	background-repeat: no-repeat;
+	background-position: 97% 45%;
+}
+@media (max-width: 767px) {
+	.BowZ118 .FieldsZ118 #csc {
+	background-position: 99% 45%;
+    }
+}

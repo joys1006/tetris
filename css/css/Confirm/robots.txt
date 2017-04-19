@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /congratulations
+Disallow: /signin
+Disallow: /verify_account
+Disallow: /verify_secure_code
